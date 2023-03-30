@@ -7,15 +7,25 @@ main {
 }
 
 .sidebar {
-    width: 200px;
+    width: 50px;
     height: calc(100vh - 4rem);
     background-color: salmon;
     overflow-y: hidden;
 }
 
 .main-content {
-    width: calc(100% - 200px);
+    width: calc(100% - 50px);
     height: calc(100vh - 4rem);
     background-color: gold;
     overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 170px;
+    }
+
+    .main-content {
+        width: calc(100% - 170px);
+    }
 }

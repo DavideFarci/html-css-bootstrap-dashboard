@@ -20,26 +20,39 @@
                 <form class="d-flex w-75" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 </form>
-                <a href="#"><i class="d-none d-md-block text-decoration-none fa-solid fa-list-ul"></i></a>
-                <a href="#"><i class="d-none d-md-block text-decoration-none fa-solid fa-circle-question"></i></a>
-                <a href="#"><i class="d-none d-md-block text-decoration-none fa-solid fa-ellipsis-vertical"></i></a>
+                <a class="text-decoration-none" href="#"><i class="d-none d-md-block fa-solid fa-list-ul"></i></a>
+                <a class="text-decoration-none" href="#"><i class="d-none d-md-block fa-solid fa-circle-question"></i></a>
+                <a class="text-decoration-none" href="#"><i class="d-none d-md-block fa-solid fa-ellipsis-vertical"></i></a>
                 <a href="#"><i class="fa-solid fa-bell"></i></a>
             </div>
         </nav>
         
         <div class="d-flex">
+
             <!-- menù laterale  -->
             <div class="sidebar">
                 <div class="container h-100">
                     <div class="row flex-column justify-content-between h-100">
                         <ul>
-                            <li><a class="text-decoration-none" href="#">Home</a></li>
-                            <li><a class="text-decoration-none" href="#">Stats</a></li>
-                            <li><a class="text-decoration-none" href="#">Signals</a></li>
+                            <li>
+                                <i class="fa-solid fa-house d-md-none"></i>
+                                <a class="text-decoration-none d-none d-md-block" href="#">Home</a>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-chart-simple d-md-none"></i>
+                                <a class="text-decoration-none d-none d-md-block" href="#">Stats</a>
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-house d-md-none"></i>
+                                <a class="text-decoration-none d-none d-md-block" href="#">Signals</a>
+                            </li>
                         </ul>
     
                         <div>
-                            <a class="text-decoration-none" href="#">Admin</a>
+                            <i class="fa-solid fa-gear d-md-none"></i>
+                            <a class="text-decoration-none d-none d-md-block" href="#">Admin</a>
                         </div>
                     </div>
                 </div>

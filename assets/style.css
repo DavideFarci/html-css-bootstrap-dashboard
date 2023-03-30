@@ -1,0 +1,21 @@
+main {
+    height: 100vh;
+}
+
+.navbar {
+    height: 4rem;
+}
+
+.sidebar {
+    width: 200px;
+    height: calc(100vh - 4rem);
+    background-color: salmon;
+    overflow-y: hidden;
+}
+
+.main-content {
+    width: calc(100% - 200px);
+    height: calc(100vh - 4rem);
+    background-color: gold;
+    overflow-y: auto;
+}

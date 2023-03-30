@@ -9,14 +9,15 @@ main {
 .sidebar {
     width: 50px;
     height: calc(100vh - 4rem);
-    background-color: salmon;
+    background-color: rgb(11, 35, 57);
+    background-image: url(../img/sidebar-bg.png) ;
     overflow-y: hidden;
 }
 
 .main-content {
     width: calc(100% - 50px);
     height: calc(100vh - 4rem);
-    background-color: gold;
+    background-color: lightgrey;
     overflow-y: auto;
 }
 

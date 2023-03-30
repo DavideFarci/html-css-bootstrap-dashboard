@@ -21,6 +21,8 @@ main {
     overflow-y: auto;
 }
 
+/* media sidebar  */
+
 @media (min-width: 768px) {
     .sidebar {
         width: 170px;
@@ -29,4 +31,12 @@ main {
     .main-content {
         width: calc(100% - 170px);
     }
+}
+
+/* contenuto principale  */
+
+/* card con tabella  */
+
+.table tbody img {
+    height: 1.6em;
 }

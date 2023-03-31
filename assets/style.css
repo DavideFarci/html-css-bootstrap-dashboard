@@ -6,6 +6,10 @@ main {
     height: 4rem;
 }
 
+.navbar .navbar-brand .logo_small {
+    width: 2.3em;
+}
+
 .sidebar {
     width: 50px;
     height: calc(100vh - 4rem);

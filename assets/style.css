@@ -19,6 +19,10 @@ main {
     margin-right: 5px;
 }
 
+.sidebar a {
+    padding: .3rem;
+}
+
 .main-content {
     width: calc(100% - 50px);
     height: calc(100vh - 4rem);

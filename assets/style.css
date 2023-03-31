@@ -27,13 +27,6 @@ main {
     padding: .3rem;
 }
 
-.main-content {
-    width: calc(100% - 50px);
-    height: calc(100vh - 4rem);
-    background-color: lightgrey;
-    overflow-y: auto;
-}
-
 /* media sidebar  */
 
 @media (min-width: 992px) {
@@ -47,6 +40,21 @@ main {
 }
 
 /* contenuto principale  */
+
+.main-content {
+    width: calc(100% - 50px);
+    height: calc(100vh - 4rem);
+    background-color: lightgrey;
+    overflow-y: auto;
+}
+
+.bar-header .boolean button {
+    /* background-color: #165BBA; */
+    font-size: .7em;
+    font-weight: bold;
+    padding: .1rem .3rem;
+    border-radius: 1rem;
+}
 
 /* card con tabella  */
 

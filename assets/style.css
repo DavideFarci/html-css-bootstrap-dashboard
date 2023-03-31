@@ -67,3 +67,16 @@ main {
 .table tbody img {
     height: 1.6em;
 }
+
+/* media offcanvas */
+
+@media (min-width: 300px) {
+    .bar-header .offcanvas {
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .bar-header .offcanvas {
+        width: 50%;
+    }
+}

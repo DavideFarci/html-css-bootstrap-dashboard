@@ -34,11 +34,11 @@ main {
 
 @media (min-width: 768px) {
     .sidebar {
-        width: 170px;
+        width: 125px;
     }
 
     .main-content {
-        width: calc(100% - 170px);
+        width: calc(100% - 125px);
     }
 }
 

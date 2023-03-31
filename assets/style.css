@@ -27,6 +27,12 @@ main {
     padding: .3rem;
 }
 
+.sidebar a:hover {
+    background-color: #818D98;
+    cursor: pointer;
+    transition: 200ms;
+}
+
 /* media sidebar  */
 
 @media (min-width: 992px) {

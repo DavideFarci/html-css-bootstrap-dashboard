@@ -33,18 +33,6 @@ main {
     transition: 200ms;
 }
 
-/* media sidebar  */
-
-@media (min-width: 992px) {
-    .sidebar {
-        width: 125px;
-    }
-
-    .main-content {
-        width: calc(100% - 125px);
-    }
-}
-
 /* contenuto principale  */
 
 .main-content {
@@ -78,5 +66,17 @@ main {
 @media (min-width: 992px) {
     .bar-header .offcanvas {
         width: 50%;
+    }
+}
+
+/* media sidebar  */
+
+@media (min-width: 992px) {
+    .sidebar {
+        width: 125px;
+    }
+
+    .main-content {
+        width: calc(100% - 125px);
     }
 }

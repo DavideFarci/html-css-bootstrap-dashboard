@@ -63,7 +63,7 @@ main {
 
 /* media offcanvas */
 
-@media (min-width: 300px) {
+@media (min-width: 576px) {
     .bar-header .offcanvas {
         width: 100%;
     }

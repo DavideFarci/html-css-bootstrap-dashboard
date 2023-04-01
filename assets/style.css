@@ -43,11 +43,16 @@ main {
 }
 
 .bar-header .boolean button {
-    /* background-color: #165BBA; */
-    font-size: .7em;
+    background-color: #165BBA !important;
+    font-size: .8em;
     font-weight: bold;
-    padding: .1rem .3rem;
+    padding: .1rem .4rem;
+    border: 0;
     border-radius: 1rem;
+}
+
+.bar-header .boolean button:hover {
+    background-color: #165BBA !important;
 }
 
 /* card con tabella  */
